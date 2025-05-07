@@ -1,0 +1,7 @@
+{
+  "url": "http://localhost:3000/signin",
+  "incompletePassword": "pas",
+  "username": "Reyes.Osinski",
+  "wrongPassword": "M1ty1gR8B3",
+  "correctPassword": "s3cret"
+}
