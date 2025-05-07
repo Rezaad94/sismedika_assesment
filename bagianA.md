@@ -1,6 +1,6 @@
-# QA Knowledge Summary
+# Jawaban Bagian A
 
-## 1. Perbedaan Bug, Defect, dan Error
+## 1. Jelaskan perbedaan antara bug, defect, dan error.
 - **Bug**: Issue atau masalah yang ditemukan di dalam aplikasi ketika user menggunakannya, baik aplikasi web atau mobile.  
   *Contoh:* Tombol tidak merespons saat diklik.  
 - **Defect**: Ketidaksesuaian antara aplikasi atau fitur dengan requirement yang sudah ditentukan oleh product manager.  
@@ -10,13 +10,13 @@
 
 ---
 
-## 2. Apa itu Regression Testing?
-Regression testing adalah jenis pengujian yang dilakukan untuk memastikan bahwa perubahan pada kode (seperti penambahan fitur baru atau perbaikan bug) **tidak memengaruhi fitur yang sudah ada**.  
+## 2. Apa yang dimaksud dengan regression testing dan kapan biasanya dilakukan?
+Regression testing adalah jenis pengujian yang dilakukan untuk memastikan bahwa perubahan pada kode (seperti penambahan fitur baru atau perbaikan bug) tidak memengaruhi fitur yang sudah ada. biasanya dilakukan ketika terdapat perubahan yang major terhadap suatu aplikasi.
 *Contoh:* Setelah memperbaiki bug pada fitur pembayaran, regression testing dilakukan untuk memastikan fitur lain seperti login, pencarian produk, dan checkout tetap berfungsi dengan baik.
 
 ---
 
-## 3. Bug Life Cycle
+## 3. Sebutkan lifecycle dari bug/defect dari ditemukan hingga ditutup.
 1. QA menemukan bug.  
 2. QA melaporkan bug dalam task management (seperti Jira atau Trello) sebagai tiket.  
 3. Bug diinformasikan ke engineer untuk diperbaiki.  
@@ -26,7 +26,7 @@ Regression testing adalah jenis pengujian yang dilakukan untuk memastikan bahwa 
 
 ---
 
-## 4. Perbedaan Test Scenario dan Test Case
+## 4. Apa itu test case dan test scenario? Jelaskan perbedaannya dan berikan contohnya.
 - **Test Scenario** adalah ringkasan dari pengujian yang akan dilakukan.  
   *Contoh:* Validasi fitur Login.
 
@@ -49,7 +49,7 @@ Regression testing adalah jenis pengujian yang dilakukan untuk memastikan bahwa 
 
 ---
 
-## 5. Perbedaan Priority dan Severity
+## 5. Apa yang dimaksud dengan severity dan priority dalam konteks bug? Berikan masing-masing contohnya.
 - **Priority** adalah tingkat urgensi atau kecepatan dimana suatu bug harus diperbaiki.  
 - **Severity** adalah tingkat keparahan bug terhadap sistem/aplikasi.  
 
